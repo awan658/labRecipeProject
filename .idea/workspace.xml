@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="114e967f-813b-49a6-ad3c-12efb4a6b690" name="Changes" comment="" />
+    <list default="true" id="114e967f-813b-49a6-ad3c-12efb4a6b690" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/modules/csv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe/browse/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe/browse/home.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe/domainmodel/author.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe/domainmodel/category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe/domainmodel/favourite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe/domainmodel/nutrition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe/domainmodel/recipe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe/domainmodel/review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe/domainmodel/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe/home/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe/home/home.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe/templates/browse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe/templates/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe/templates/recipe_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/category.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/recipe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/stock_banner_image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/static/images/stock_banner_image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/browse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/recipe_detail.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,18 +62,49 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.main.executor": "Run",
     "Python.recipe.executor": "Run",
+    "Python.wsgi.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/awan658/PycharmProjects/labRecipeProject"
+    "last_opened_file_path": "C:/Users/awan658/Downloads/labRecipeProject/recipe/browse"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\awan658\Downloads\labRecipeProject\recipe\browse" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\awan658\Downloads\labRecipeProject\modules" />
+      <recent name="C:\Users\awan658\Downloads\labRecipeProject\recipes" />
       <recent name="C:\Users\awan658\PycharmProjects\labRecipeProject" />
       <recent name="C:\Users\awan658\PycharmProjects\labRecipeProject\modules" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="wsgi" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="labRecipeProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wsgi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -63,5 +123,35 @@
       <updated>1754447332041</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wsgi.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/csv.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

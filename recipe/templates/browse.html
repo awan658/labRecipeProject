@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/css/main.css"> <! temp css !>
-    <title>Recipe</title>
+    <title>Browse Recipes</title>
 </head>
 <body>
     <div class="header">
@@ -13,25 +13,24 @@
             <img id=banner src="/static/images/stock_banner_image.jpg" alt="Stock banner image">
         </header>
     </div>
-    <div class="navbar">
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./browse.html">Browse</a></li>
-            </ul>
-        </nav>
-    </div>
+    {% include "navbar.html" %}
     <div class="main">
-        <div class="recipe-info">
-            <div class="recipe-ingredients">
-                <h2>Ingredients</h2>
-                <p>...</p>
-            </div>
-            <div class="recipe-instructions">
-                <h2>Instructions</h2>
-                <p>...</p>
-            </div>
-        </div>
+        <main>
+             <h1>Browse Recipes</h1>
+            <ol>
+                {% for recipe in recipes %}
+                <li>
+                    <div>
+                        <a href="{{ url_for('recipe', recipe_id=recipe.id) }}">
+                            <div>
+                                <p>recipe.name</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                {% endfor %}
+            </ol>
+        </main>
     </div>
     <div class="footer">
         <footer>
@@ -40,4 +39,5 @@
     </div>
 </body>
 </html>
+
 
